@@ -19,7 +19,7 @@
   "dependencies": {
     "debug": "~1.0.1",
     "memcached": "*",
-    "php-unserialize" : "*"
+    "groan" : "*"
   },
   "devDependencies": {
     "co": "~3.0.6",
