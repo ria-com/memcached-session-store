@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "debug": "~1.0.1",
-    "memcached": "*"
+    "memcached": "*",
+    "php-unserialize" : "*"
   },
   "devDependencies": {
     "co": "~3.0.6",
