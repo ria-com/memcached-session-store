@@ -1,0 +1,39 @@
+{
+  "name": "memcached-session-store",
+  "description": "koa session with memcached",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ria-com/memcached-session-store.git"
+  },
+  "version": "0.1.1",
+  "keywords": [
+    "koa",
+    "middleware",
+    "session",
+    "memcached"
+  ],
+  "author": {
+    "name": "Ihor Mohyla",
+    "email": "l.ihor.p.mogyla@gmail.com"
+  },
+  "dependencies": {
+    "debug": "~1.0.1",
+    "memcached": "~0.10.3"
+  },
+  "devDependencies": {
+    "co": "~3.0.6",
+    "koa": "~0.7.0",
+    "koa-sess": "0.1.0-beta1"
+  },
+  "engines": {
+    "node": ">= 0.11.9"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/ria-com/memcached-session-store/issues"
+  },
+  "homepage": "https://github.com/ria-com/memcached-session-store",
+  "_id": "memcached-session-store@0.1.1",
+  "_from": "memcached-session-store@*"
+}
