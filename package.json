@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "debug": "~1.0.1",
-    "memcached": "~0.10.3"
+    "memcached": "*"
   },
   "devDependencies": {
     "co": "~3.0.6",
