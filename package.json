@@ -19,7 +19,7 @@
   "dependencies": {
     "debug": "~1.0.1",
     "memcached": "*",
-    "groan" : "*"
+    "groan" : "git://github.com/mscdex/groan.git#master"
   },
   "devDependencies": {
     "co": "~3.0.6",
