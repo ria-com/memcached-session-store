@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "debug": "~1.0.1",
-    "memcached": "~0.2.8",
+    "co-memcahced": "https://github.com/ihormohyla/co-memcahced.git",
     "groan" : "git://github.com/mscdex/groan.git#master"
   },
   "devDependencies": {
