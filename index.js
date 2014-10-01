@@ -51,7 +51,7 @@ module.exports = function (options) {
         },
         destroy : function *(sid, sess) {
             console.log("PASSPORT WHANT DELET SESSION!!!!");
-            yield client.delete(sid);
+//            yield client.delete(sid);
         }
     };
 
