@@ -25,14 +25,16 @@ module.exports = function (options) {
                     data = {};
                 }
             }
-            console.log("GET FROM MEMCACHED PARSED -> sid -> data", sid, data);
+//            console.log("GET FROM MEMCACHED PARSED -> sid -> data", sid, data);
             if(data && data.person_id){
-                data.passport = {
-                    "user":{
+                data = {passport :  {
+                    "user": {
                         "user_id":data.person_id
                     }
                 }
+                };
             }
+            console.log("GET FROM MEMCACHED PARSED -> sid -> data", sid, data);
             return data;
         },
         set : function *(sid, sess, ttl) {
@@ -44,6 +46,7 @@ module.exports = function (options) {
                 ttl = ttl / 1000;
             }
             var data  = yield client.get(sid);
+            console.log('SET data get->>>', data);
             if(!data){
                 var data  = yield client.set(sid, sess, ttl);
             }
